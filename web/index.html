@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <p>Input code</p>
+            <form method="post" action="AccessTokenServlet">
+                <input type="text" value="" name="code" id="code">
+                <input type="submit" value="submit">
+            </form>
+        </div>
+        <div>
+            <p>Input comment</p>
+            <form method="post" action="AddCommentServlet">
+                <input type="text" value="" name="comment" id="comment">
+                <input type="submit" value="submit">
+            </form>
+        </div>
+        <div>
+            <p>Like</p>
+            <form method="post" action="LikeServlet">
+                <input type="submit" value="Like">
+            </form>
+        </div>
+        <div>
+            <p>Follow</p>
+            <form method="post" action="FollowServlet">
+                <input type="submit" value="Follow">
+            </form>
+        </div>
+    </body>
+</html>
